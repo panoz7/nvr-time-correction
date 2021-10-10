@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Time Correction</title>
+</head>
+
+<body>
+
+
+<p>Take a picture of the NVR screen.<br/>
+Screen time is the time shown on the screen in the picture<br/>
+Actual time is the time that you took the picture (which can be extracted from the photo's metadata)<br/>
+Correction time is the the time you want to correct</p>
+
+Screen Time:
+<input type='text' id='screen-time' placeholder='HH:MM:SS'/>
+
+
+Actual Time: 
+<input type='text' id='actual-time' placeholder='HH:MM:SS' />
+
+Correction Time: 
+<input type='text' id='correction-time' placeholder='HH:MM:SS'/>
+
+<button type='button' id='calculate-correction'>Calculate Correction</button>
+
+<h4>Corrected Time: <span id='corrected-time'></span></h4>
+
+
+</body>
+
+
+<script src='script.js'></script>
+
+</html>
